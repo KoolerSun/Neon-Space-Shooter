@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neon Versus </title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="1400" height="600"></canvas>
+        <div id="ui">
+            <div class="p1-col">
+                <div class="score-box">P1: <span id="p1-score">0</span></div>
+                <div>LIVES: <span id="p1-lives">3</span></div>
+                <div class="garbage-meter">ATTACK BAR: <span id="p1-meter">0</span>/8</div>
+            </div>
+            
+            <div class="center-col">
+                <div>DANGER LEVEL</div>
+                <div id="level-display">1</div>
+            </div>
+
+            <div class="p2-col">
+                <div class="score-box">P2: <span id="p2-score">0</span></div>
+                <div>LIVES: <span id="p2-lives">3</span></div>
+                <div class="garbage-meter">ATTACK BAR: <span id="p2-meter">0</span>/8</div>
+            </div>
+        </div>
+        <div id="menu">
+            <h1 style="color: #00ffff; text-shadow: 0 0 10px #00ffff; margin: 0; font-size: 40px;">SKY SHOOTER</h1>
+            <p style="color: #ccc; font-size: 16px;">AVOID COLLISIONS - SURVIVE!</p>
+            
+            <div class="controls">
+                <div class="control-box" style="color: #39ff14">
+                    <h3>PLAYER 1</h3>
+                    <p>WASD to Move</p>
+                    <p>SPACE to Shoot</p>
+                </div>
+                <div class="control-box" style="color: #ff004d">
+                    <h3>PLAYER 2</h3>
+                    <p>ARROWS to Move</p>
+                    <p>ENTER to Shoot</p>
+                </div>
+            </div>
+
+            <button onclick="startGame()">START BATTLE</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
