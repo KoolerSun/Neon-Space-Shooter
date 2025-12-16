@@ -85,3 +85,6 @@ To enable the backend functionality provided in `api.php`:
 
 ### Configuration
 * **Game Balance:** You can adjust spawn rates and enemy speed by modifying the constants in `game.js` (specifically `thresholdP1`, `thresholdP2`, and `speedMultiplier`).
+
+## Video Demo Links:
+* https://drive.google.com/drive/folders/1Sh_TSm0SO1NKKTn9QyJSbpS_HRtD-lWo?usp=drive_link.
